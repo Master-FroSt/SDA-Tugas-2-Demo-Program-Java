@@ -8,3 +8,12 @@ Perhatikan cara pemberian nama file karena berpengaruh ke class dalam kode progr
 Catatan nama file OOP:
 1. DataDiri itu implementasi constructor OOP
 2. Armor itu implementasi Inheritance OOP
+
+Update:
+File .java dalam Java tidak perlu memiliki nama yang sama dengan public class di awal kode jika kata "public dihilangkan". DataDiri dan Armor kembali dinamai ConstructorOOP dan InheritanceOOP.
+
+Update2:
+File .java dapat memiliki lebih dari satu public class dengan satu berupa public class namaFile dan lainnya berupa public class sesuai kebutuhan OOP. Namun, IDE Java menyarankan public class namaFile memiliki scope static, contohnya public static class ConstructorOOP pada ConstructorOOP.java
+
+Update3:
+File inheritanceOOP.java tidak bisa memiliki public class Armor, tapi hanya class Armor sebagai superclass dan lainnya sebagai subclass. Kemudian public class namaFile ditulis seperti biasa

@@ -1,4 +1,4 @@
-public class DataDiri {
+class DataDiri {
 //    Implementasi class constructor OOP Java
 //    Deklarasi peubah
     String nama;
@@ -10,9 +10,11 @@ public class DataDiri {
         usia = y;
     }
 //Fungsi utama
+public static class ConstructorOOP {
     public static void main(String[] args) {
         DataDiri DataSaya = new DataDiri("Musyaffa", 20);
         System.out.println("Nama saya adalah " + DataSaya.nama);
         System.out.println("Usia saya adalah " + DataSaya.usia);
     }
+}
 }
