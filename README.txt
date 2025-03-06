@@ -17,3 +17,6 @@ File .java dapat memiliki lebih dari satu public class dengan satu berupa public
 
 Update3:
 File inheritanceOOP.java tidak bisa memiliki public class Armor, tapi hanya class Armor sebagai superclass dan lainnya sebagai subclass. Kemudian public class namaFile ditulis seperti biasa
+
+Update4:
+Tambahan byte dan short dalam VariableAndDataTypes
